@@ -18,7 +18,7 @@ buf.pop();
 }
 if (!buf.isEmpty())
 buf.pop();
-} else if ((str[i] == '*') || (str[i] == '/') || 
+} else if ((str[i] == '*') || (str[i] == '/') ||
 (str[i] == '+') || (str[i] == '-')) {
 if ((str[i] == '+') || (str[i] == '-')) {
 while ((!buf.isEmpty()) && (!(buf.get() == '('))) {
@@ -26,7 +26,7 @@ ans.push(buf.get());
 buf.pop();
 }
 } else {
-while (((!buf.isEmpty()) && (!((buf.get() == '+') || 
+while (((!buf.isEmpty()) && (!((buf.get() == '+') ||
 (buf.get() == '-')))) && (!(buf.get() == '('))) {
 ans.push(buf.get());
 buf.pop();
