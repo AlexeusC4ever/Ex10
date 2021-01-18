@@ -1,4 +1,4 @@
-﻿// Copyright 2020 Baklanov
+//  Copyright 2020 Baklanov
 
 #ifndef INCLUDE_MYSTACK_H_
 
