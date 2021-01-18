@@ -1,6 +1,5 @@
 // Copyright 2020 Baklanov
 
-#pragma once
 #include "postfix.h"
 
 std::string infix2prefix(std::string str) {
