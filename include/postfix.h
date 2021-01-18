@@ -2,8 +2,6 @@
 #ifndef _POSTFIX
 #define _POSTFIX
 
-
-
 #include <iostream> 
 
 #include "MyStack.h"
