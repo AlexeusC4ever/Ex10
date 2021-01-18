@@ -3,12 +3,12 @@
 #include "postfix.h"
 
 std::string infix2postfix(std::string str) {
-int size=0;
+int size = 0;
 MyStack<char> ans;
 MyStack<char> buf;
 int strlength = str.length();
 for (int i = 0; i < strlength; i++) {
-if (((str[i] >= '0') && (str[i] <= '9')) || (str[i]=='.')) {
+if (((str[i] >= '0') && (str[i] <= '9')) || (str[i] == '.')) {
 ans.push(str[i]);
 } else if (str[i] == '(') {
 buf.push(str[i]);
