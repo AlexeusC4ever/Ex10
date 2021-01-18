@@ -1,11 +1,13 @@
 // Copyright 2020 Baklanov
-#ifndef _POSTFIX
-#define _POSTFIX
+#ifndef INCLUDE_POSTFIX_H_
+#define INCLUDE_POSTFIX_H_
 
-#include <iostream> 
+#include <iostream>
+
+#include <string>
 
 #include "MyStack.h"
 
 std::string infix2prefix(std::string str);
 
-#endif  // _POSTFIX
+#endif  // INCLUDE_POSTFIX_H_
