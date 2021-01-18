@@ -8,6 +8,6 @@
 
 #include "MyStack.h"
 
-std::string infix2prefix(std::string infix);
+std::string infix2postfix(std::string str);
 
 #endif  // INCLUDE_POSTFIX_H_
