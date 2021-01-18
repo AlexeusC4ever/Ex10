@@ -2,7 +2,7 @@
 
 #include "postfix.h"
 
-std::string infix2prefix(std::string str) {
+std::string infix2postfix(std::string str) {
 MyStack<char> ans;
 MyStack<char> buf;
 int strlength = str.length();
