@@ -1,5 +1,4 @@
 // Copyright 2020 Baklanov
-#pragma once
 
 #include <iostream>
 #include "MyStack.h"
