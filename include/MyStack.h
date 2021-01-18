@@ -3,7 +3,7 @@
 #ifndef INCLUDE_MYSTACK_H_
 
 #define INCLUDE_MYSTACK_H_
-#pragma once
+
 template<typename Stack>
 class MyStack {
  private:
